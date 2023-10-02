@@ -37,6 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'website',
+]
+
+CORS_ORIGIN_WHITELIST = [
+    'http://localhost:4200',  # URL di Angular
 ]
 
 MIDDLEWARE = [
